@@ -1,0 +1,191 @@
+body{
+    width:960px;
+    margin: 0 auto;
+    padding:15px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+    }
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-SemiBold;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+.header{
+    text-align: left;
+}
+.container{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.container button {
+    padding: 0;
+}
+.container .addbutton{
+    background: transparent;
+    border: 1px #ccc solid;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #999;
+    cursor: pointer;
+}
+.container .addbutton:hover{
+    background: #eee;
+     color: #999;
+}
+/*Left Container*/
+.left-container{
+    float: left;
+    width:30%;
+    padding-right:15px;
+    
+}
+.education-details{
+    margin-bottom: 10px;
+}
+.education-details .degree{
+    font-family: SourceSansPro-SemiBold;
+    margin: 0;
+}
+.education-details .institution-name{
+    font-family: SourceSansPro-Light;
+    font-style: italic;
+    margin: 0;
+}
+.duration{
+    font-family: SourceSansPro-Light;
+    margin: 0;
+}
+.percentage{
+    font-family: SourceSansPro-Light;
+    margin: 0;
+}
+.declaration,.place,.date{
+    font-family: SourceSansPro-Light;
+}
+.icon{
+    width: 25px;
+    float: left;
+    margin-right: 5px;
+}
+.icon img{
+    width: 100%;
+}
+.skill .normal-text{
+    margin-bottom: 5px;
+}
+.contact-details{
+    position: relative;
+    border:1px transparent solid;
+}
+.contact-details:hover{
+    border:1px #ccc solid;
+}
+.delete-btn{
+    display: none;
+}
+.delete-btn.contactlist{
+    display: block;
+    position: absolute;
+    right:5px;
+    background: transparent;
+    border:0;
+    font-family: SourceSansPro-SemiBold;
+}
+
+
+/*Right Container*/
+.right-container{
+    float: right;
+    width:70%;
+}
+.right-widget{
+    float: left;
+}
+.name{
+    font-family: SourceSansPro-Bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.designation{
+    font-family: SourceSansPro-Light;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.normal-text{
+    font-family: SourceSansPro-Light;
+    margin: 0;
+    font-size: 16px;
+}
+.title{
+    font-family: SourceSansPro-SemiBold;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 2px;
+}
+.sub-title{
+    font-family: SourceSansPro-SemiBold;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.years-exp {
+    float: left;
+    width: 15%;
+}
+.years-exp p{
+    margin: 0;
+    font-family: SourceSansPro-SemiBold;
+}
+.word-details{
+    float:right;
+    width: 85%;
+}
+.company-designation{
+    font-family: SourceSansPro-SemiBold;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 0;
+}
+.company-name{
+    font-family: SourceSansPro-Light;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    font-weight: normal;
+}
+.project-details .project-title{
+    font-style: italic;
+    text-decoration: underline;
+    margin: 5px 0 0 0;
+}
+.project-details .project-desc{
+    font-family: SourceSansPro-Light;
+    margin: 5px 0 0 0;
+}
+.project-details ul,.project-details ol{
+    margin-top: 0;
+}
+.company-experience {
+    display: flex;
+}
+.project-details ul li,.project-details ol li{
+    font-family: SourceSansPro-Light;
+}
